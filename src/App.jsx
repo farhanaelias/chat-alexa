@@ -11,7 +11,7 @@ function App() {
   async function generateAnswer(){
     setAnswer("loading..");
     const response = await axios({
-      url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBlFCgPyKuB0vONhJIQuToCAPkQ3rEmC_M",
+      url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key= ",
        method:"post",
        data: {"contents":[
         { parts:[{text: question}] },
